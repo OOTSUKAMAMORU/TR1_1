@@ -3,7 +3,8 @@
 const char kWindowTitle[] = "LE2D_07_オオツカ_マモル";
 
 // Windowsアプリでのエントリーポイント(main関数)
-int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
+int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) 
+{
 
 	// ライブラリの初期化
 	Novice::Initialize(kWindowTitle, 1280, 720);
